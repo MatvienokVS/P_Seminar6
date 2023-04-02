@@ -9,7 +9,7 @@ number_n = int(input('Введите N-й член прогрессии: '))
 number_d = int(input('Введите разность прогрессии: '))
 
 
-def arf_prog(a, b):
+def arf_prog(*args):
     arr = []
     for i in range(number_n):
         arr.append(number_1 + i * number_d)
